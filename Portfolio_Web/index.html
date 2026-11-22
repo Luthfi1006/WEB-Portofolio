@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>NEXUS_ROOT // HOME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+    <nav class="cyber-nav">
+        <a href="index.html" class="nav-brand">NEXUS_ROOT</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="ketrampilan.html">PROFILE</a></li>
+            <li><a href="karya.html">PROJECTS</a></li>
+            <li><a href="kontak.html">CONTACT</a></li>
+        </ul>
+        <button id="btn-replay" class="nav-replay-btn">[ REPLAY GATE ]</button>
+    </nav>
+
+    <!-- Gate -->
+    <div id="gate" class="security-gate-overlay">
+        <div class="security-gate-box">
+            <div class="terminal-header"><div class="terminal-dot active"></div> INCOMING CONNECTION...</div>
+            <h2 class="gate-title">SECURITY CHECKPOINT</h2>
+            <p id="puzzle" class="gate-prompt"></p>
+            <ul id="options" class="gate-options"></ul>
+            <div class="gate-actions">
+                <span id="result" class="gate-status-msg"></span>
+                <button id="btn-enter" class="cyber-btn" disabled>ENTER PORTAL</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="cyber-container hero-wrapper">
+        <div class="profile-hud-ring"><img src="images/profile/main.jpg" class="profile-img-hud"></div>
+        <div class="hero-welcome-badge">STATUS: SYSTEM READY</div>
+        <h1 class="hero-name">M. <span>Luthfi Abdullah</span></h1>
+        <p class="hero-role">// Cyber-Security Analyst & Full-Stack Engineer</p>
+        <p class="hero-bio">Menjelajahi dunia kode dengan presisi tinggi. Mengamankan aset digital dan membangun masa depan dengan arsitektur sistem yang robust.</p>
+        <div class="hero-cta">
+            <a href="ketrampilan.html" class="cyber-btn">VIEW PROFILE</a>
+            <a href="karya.html" class="cyber-btn cyber-btn-outline">SEE PROJECTS</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
